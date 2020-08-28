@@ -17,7 +17,9 @@ public class testCase8_Weather {
 		
 		String websiteResponce = lightapi.getData(weatherApiBaseURL + weatherApiCurrentURL + "?key=" + weatherApiKey + "&q=" + zipCode);
 		JSONObject weatherData = (JSONObject) parseJSON(websiteResponce);
-		System.out.println(weatherData.toJSONString());
+		JSONObject currentData = (JSONObject) weatherData.get("current");
+		JSONObject conditionData = (JSONObject) currentData.get("condition");
+		System.out.println(conditionData);
 	}
 	
 	private static JSONObject parseJSON(String data) {

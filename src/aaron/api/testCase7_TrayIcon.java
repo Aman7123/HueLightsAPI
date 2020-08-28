@@ -55,6 +55,7 @@ public class testCase7_TrayIcon {
 			}
 			popup.add(fx);
 		}
+		
 		MenuItem exit = new MenuItem("Exit");
 		exit.addActionListener(new ActionListener() {
 			@Override
