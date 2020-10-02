@@ -2,8 +2,6 @@ package aaron.api;
 
 import java.util.Arrays;
 
-import org.json.simple.JSONObject;
-
 public class Groups {
 	
 	private String id, name, type, state, bri, hue, sat, effect, colorX, colorY, ct, alert, colormode, all_on, any_on, streamActive, streamOwner;
