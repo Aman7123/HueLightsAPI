@@ -2,7 +2,7 @@
 
 HueLightsAPI is a Java framework designed to parse the JSON from a Philips Hue bridge. The framework is designed to connect with the debug network on the bridge, this is a LAN network communication that can only happen within your home.
 
-## Pre requests
+## Prerequisites
 
 Login to your router and find the bridge IP address [192.168.0.1](https://19216801.one/)
 
