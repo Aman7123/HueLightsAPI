@@ -18,3 +18,10 @@ Currently the only runnable code is the release here on github, using the inform
 
 ## Permissions
 I own all the code, *unless otherwise stated*, and none of the resources!
+
+## Updates
+This code is no longer relevant, if you are reading this let me inform you that you should research this:
+```
+https://fasterxml.github.io/jackson-databind/javadoc/2.7/com/fasterxml/jackson/databind/ObjectMapper.html 
+```
+The days of mapping an entire Java object manually are over, learn how to deserialize an object and it will save your life!
