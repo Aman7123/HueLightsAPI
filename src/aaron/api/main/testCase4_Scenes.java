@@ -1,4 +1,8 @@
-package aaron.api;
+package aaron.api.main;
+
+import aaron.api.Request;
+import aaron.api.Scenes;
+import aaron.api.ScenesHelper;
 
 public class testCase4_Scenes {
 	public static Scenes[] scenes;

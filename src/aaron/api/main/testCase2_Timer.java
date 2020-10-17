@@ -1,6 +1,9 @@
-package aaron.api;
+package aaron.api.main;
 
 import org.json.simple.JSONObject;
+
+import aaron.api.Lights;
+import aaron.api.Request;
 
 public class testCase2_Timer {
 	public static Lights[] lights;

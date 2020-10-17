@@ -1,9 +1,12 @@
-package aaron.api;
+package aaron.api.main;
 
 import java.awt.Color;
 import java.util.*;
 
 import org.json.simple.JSONObject;
+
+import aaron.api.Request;
+import aaron.api.Schedules;
 /**
  * For more info visit: 
  * http://hyperphysics.phy-astr.gsu.edu/hbase/vision/cie.html#c4

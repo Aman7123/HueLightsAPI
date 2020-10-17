@@ -1,4 +1,8 @@
-package aaron.api;
+package aaron.api.main;
+
+import aaron.api.Request;
+import aaron.api.Schedules;
+import aaron.api.SchedulesHelper;
 
 public class testCase5_Schedules {
 	public static Schedules[] schedules;

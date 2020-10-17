@@ -1,7 +1,11 @@
-package aaron.api;
+package aaron.api.main;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.ParseException;
+
+import aaron.api.Lights;
+import aaron.api.LightsHelper;
+import aaron.api.Request;
 
 public class testCase1_Lights {
 	public static Lights[] lights;

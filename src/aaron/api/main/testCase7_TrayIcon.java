@@ -1,9 +1,14 @@
-package aaron.api;
+package aaron.api.main;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import org.json.simple.JSONObject;
+import aaron.api.Groups;
+import aaron.api.GroupsHelper;
+import aaron.api.Request;
+import aaron.api.Scenes;
+import aaron.api.ScenesHelper;
 
 public class testCase7_TrayIcon {
 	public static Scenes[] scenes;
@@ -12,7 +17,8 @@ public class testCase7_TrayIcon {
 
 	public static void main(String[] args) throws Exception {
 		if(args[0] != null && args[1] != null) {
-			Request lightapi = new Request(args[0], args[1]);
+			
+			Request lightapi = new Request(args[0].toString(), args[1].toString());
 			ScenesHelper sceneshelper = new ScenesHelper(lightapi);
 			scenes = sceneshelper.getScenes();
 			

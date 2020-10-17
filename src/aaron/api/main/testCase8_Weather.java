@@ -1,7 +1,11 @@
-package aaron.api;
+package aaron.api.main;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+
+import aaron.api.Groups;
+import aaron.api.GroupsHelper;
+import aaron.api.Request;
 
 public class testCase8_Weather {
 	public static Groups[] groups;

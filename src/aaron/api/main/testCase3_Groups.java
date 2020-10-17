@@ -1,4 +1,8 @@
-package aaron.api;
+package aaron.api.main;
+
+import aaron.api.Groups;
+import aaron.api.GroupsHelper;
+import aaron.api.Request;
 
 public class testCase3_Groups {
 	public static Groups[] groups;
