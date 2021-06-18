@@ -16,9 +16,6 @@ https://developers.meethue.com/develop/get-started-2/
 ## Executing
 Currently the only runnable code is the release here on github, using the information you have just learned you should be able to run the test program. Good luck!
 
-## Permissions
-I own all the code, *unless otherwise stated*, and none of the resources!
-
 ## Updates
 This code is no longer relevant, if you are reading this let me inform you that you should research this:
 ```
